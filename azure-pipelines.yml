@@ -16,7 +16,7 @@ steps:
     actions: 'build'
     configuration: 'Release'
     sdk: 'iphoneos'
-    xcWorkspacePath: 'hello-world-ios-app/HelloWorldProject.xcodeproj/project.xcworkspace'
+    xcWorkspacePath: 'HelloWorldProject.xcodeproj/project.xcworkspace'
     packageApp: true
     archivePath: '$(agent.buildDirectory)/archive/iPhones/release'
     exportPath: '$(agent.buildDirectory)/output/iPhones/release'
