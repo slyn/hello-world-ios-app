@@ -20,8 +20,6 @@ steps:
     packageApp: true
     archivePath: '$(agent.buildDirectory)/archive/iPhones/release'
     exportPath: '$(agent.buildDirectory)/output/iPhones/release'
-    exportOptions: 'plist'
-    exportOptionsPlist: '_XcodeTaskExportOptions.plist'
     # Xcode
 
 - task: CopyFiles@2
