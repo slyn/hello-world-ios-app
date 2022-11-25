@@ -16,10 +16,8 @@ steps:
     actions: 'build'
     configuration: 'Release'
     sdk: 'iphoneos'
-    xcWorkspacePath: 'HelloWorldProject.xcodeproj/project.xcworkspace'
-    packageApp: true
-    archivePath: '$(agent.buildDirectory)/archive/iPhones/release'
-    exportPath: '$(agent.buildDirectory)/output/iPhones/release'
+    xcWorkspacePath: 
+    packageApp: false
     # Xcode
 
 - task: CopyFiles@2
